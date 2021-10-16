@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Alimeto Proplan", 
+        "precioProducto": "$960"
+    },
+    {
+        "id": 2,
+        "nombre": "Alimento Eukanuba", 
+        "precioProducto": "$2130"
+    },
+    {
+        "id": 3,
+        "nombre": "Alimento Royal Canin", 
+        "precioProducto": "$2600"
+    },
+    {
+        "id": 4,
+        "nombre": "Alimento Unik", 
+        "precioProducto": "$1500"
+    },
+    {
+        "id": 5,
+        "nombre": "Alimento Nutrique", 
+        "precioProducto": "$2840"
+    },
+    {
+        "id": 6,
+        "nombre": "Alimento Purina", 
+        "precioProducto": "$1425"
+    }
+]

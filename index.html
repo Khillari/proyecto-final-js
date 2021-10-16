@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Jungla | Pet Shop</title>
+                        <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body style="overflow-x:hidden">
+                        <!-- NAV -->   
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a href="index.html"><img src="assets/img/logo.png" class="logo" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="#">Inicio <span class="sr-only"></span></a>
+                        <a class="nav-link" href="#">Alimento</a>
+                        <a class="nav-link" href="#">Ropa</a> 
+                    </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+                        <!-- CONTENIDO -->     
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-xs-12">
+          <h1 class="text-center">Alimento para gatos</h1>
+          <h3 id=saludo></h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4" style="max-width: 25%;">
+          <div class="card">
+            <img src="assets/img/gati.jpg" class="card-img-top card-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="#" id="titulo-gati">Alimento Gati</a></h5>
+              <p class="card-text" style="display: none;" id="descripcion-gati">Alimento para gatos sabor Salmón y Vegetales, 1KG.</p>
+              <h3 class="card-price" style="display: none;" id="precio-gati">$295</h3>
+              <button id="btn-gati" class="btn btn-dark">Añadir a la lista</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4" style="max-width: 25%;">
+          <div class="card">
+            <img src="assets/img/raza.png" class="card-img-top card-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="#" id="titulo-raza">Alimento Raza</a></h5>
+              <p class="card-text" style="display: none;" id="descripcion-raza">Alimento para gatos sabor pescado, 10KG.</p>
+              <h3 class="card-price" style="display: none;" id="precio-raza">$1.750</h3>
+              <button id="btn-raza" class="btn btn-dark">Añadir a la lista</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col mb-4" style="max-width: 25%;">
+          <div class="card">
+            <img src="assets/img/whiskas.jpg" class="card-img-top card-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="#" id="titulo-whiskas">Alimento Whiskas</a></h5>
+              <p class="card-text" style="display: none;" id="descripcion-whiskas">Alimento para gatos sabor carne, 10KG.</p>
+              <h3 class="card-price" style="display: none;" id="precio-whiskas">$2.820</h3>
+              <button id="btn-whiskas" class="btn btn-dark">Añadir a la lista</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col mb-4" style="max-width: 25%;">
+          <div class="card">
+            <img src="assets/img/excellent.jpg" class="card-img-top card-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="#" id="titulo-excellent">Alimento Excellent</a></h5>
+              <p class="card-text" style="display: none;" id="descripcion-excellent">Alimento para gatos sabor pollo y arroz, 1KG.</p>
+              <h3 class="card-price" style="display: none;" id="precio-excellent">$670</h3>
+              <button id="btn-excellent" class="btn btn-dark">Añadir a la lista</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-xs-12">
+          <h4>Lista de compras:</h4>
+          <p id="listaCompras">
+            <button id="btn-calcular" class="btn btn-dark">Calcular precio</button>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div  class="col-lg-12 col-xs-12">
+          <p id="listaProx"> ¿Deseas saber cuáles son los próximos productos en ingresar?</p>
+          <button id="btn-ver" class="btn btn-dark">Ver</button>
+        </div>
+      </div>
+    </div>
+                        <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/index.js"></script>
+                        
+</body>
+</html>
